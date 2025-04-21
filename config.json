@@ -4,7 +4,7 @@
 		"use_tls": false,
 		"cert_path": "gophish_admin.crt",
 		"key_path": "gophish_admin.key",
-		"trusted_origins": "gophish-production-80e0.up.railway.app"
+		"trusted_origins": [gophish-production-80e0.up.railway.app]
 	},
 	"phish_server": {
 		"listen_url": "0.0.0.0:80",
